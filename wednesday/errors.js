@@ -1,5 +1,5 @@
 //try catch
-try {
+/*try {
     const ants = false;
     ants = true;
 
@@ -47,5 +47,5 @@ try {
     console.log(e);
 } finally {
     console.log('really?');
-}
+}*/
 

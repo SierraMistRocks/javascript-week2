@@ -5,7 +5,7 @@
 //otherwise, add a script tag to an html file, use this filename as the src and check the console after you open the html page
 
 // LET'S GO TO NASHVILLE!
-console.log('Im leaving Memphis');
+/*console.log('Im leaving Memphis');
 
 for (let i = 0; i < 200; i+= 65) {
     if (i == 130) {
@@ -72,4 +72,4 @@ for (let i = 0; i < 200; i+= 65) {
     
 }
 
-console.log('Made it to Nashville');
+console.log('Made it to Nashville');*/

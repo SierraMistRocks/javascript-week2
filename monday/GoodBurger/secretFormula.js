@@ -1,5 +1,5 @@
 // add an eventlistener to the submit button
-let orderButton = document.getElementById('orderButton');
+/*let orderButton = document.getElementById('orderButton');
 // let orderButton = document.querySelector('#orderButton');
 // let orderButton = document.querySelector("input[type='submit']");
 // let orderButton = document.querySelector("input[value='Place Order']");
@@ -61,4 +61,4 @@ form.addEventListener('submit', function(event){
 //             console.log('You ordered a vegan burger');
 //             break;
 //     }
-// });
+// });*/

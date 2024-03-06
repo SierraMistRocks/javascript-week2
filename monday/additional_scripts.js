@@ -1,5 +1,5 @@
 //initialize 2 variables to 0
-var x = 0;
+/*var x = 0;
 var y = x;
 
 //pre increment values in if statement condition
@@ -16,4 +16,4 @@ if (++x == 0) {
 
 // while (y++ < 6) {
 //     console.log(`y is ${y}`);
-// }
+// }*/

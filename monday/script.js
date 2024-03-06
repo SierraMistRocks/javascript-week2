@@ -1,5 +1,5 @@
 //truthy conditions
-if (1) {
+/*if (1) {
     console.log("that's true");
 } 
 
@@ -88,4 +88,4 @@ console.log(naptime);
 //     },
 
 // }
-// let header = document.getElementById('header');
+// let header = document.getElementById('header');*/

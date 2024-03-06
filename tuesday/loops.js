@@ -54,7 +54,7 @@
 // students.infinity = Number.MAX_SAFE_INTEGER;
 // console.log(students.infinity);
 
-let students = ['Arlindo', 'Dom', 'Ebony', 'JR', 'Brian'];
+/*let students = ['Arlindo', 'Dom', 'Ebony', 'JR', 'Brian'];
 for (let index = 0; index < students.length; index++) {
     console.log("Name: " + students[index] + " at index[" + index + "]");
     /*if (index == 0) {
@@ -69,7 +69,7 @@ for (let index = 0; index < students.length; index++) {
         console.log("ummmmmmm");
         console.log("Did you buy some Bitcoin today?");
     }*/
-}
+/*}
 console.log('The countdown begins now');
 for (let index = students.length; index >= 0; index--) {
     console.log("Name: " + students[index] + " at index[" + index + "]");
@@ -89,6 +89,6 @@ for (let index = 0; index < students.length; index++) {
     if (index % 2 == 0) {
         console.log("Name: " + students[index] + " at index[" + index + "]");
     }
-}
+}*/
 
 
