@@ -12,17 +12,18 @@
     </ul>
 </header>
 
-<form id="contactform" accept-charset="utf-8" action="mailto:mariatalbert@gmail.com?cc:whereiswaldo@gmail.com" method="get" enctype="application/x-www-form-urlencoded">
-    Subject:<br>
-    <input type="text" acceptcharset="utf-8" name="subject" placeholder="Your Name"><br>
-    Email:<br>
-    <input type="email" name="email" placeholder="Email"><br>
-    Message:<br>
-    <textarea type="text" name="body" rows="5" cols="30" placeholder="Message"></textarea>
-    <input type="hidden" name="cc" value="whereiswaldo@gmail.com"/>
-    <input type="submit" value="Send">
-</form>
-
-<footer>
-    &copy;2024 Jim and Samella's House Designed with SierraMist
-</footer>
+<body id="page-container">
+    <form id="form" action="mailto:mariatalbert@gmail.com?cc:whereiswaldo@gmail.com" method="get" enctype="application/x-www-form-urlencoded">
+        Subject:<br>
+        <input type="text" name="subject" placeholder="Subject"><br>
+        Email:<br>
+        <input type="email" name="email" placeholder="Email"><br>
+        Message:<br>
+        <textarea type="text" name="body" rows="5" cols="30" placeholder="Message"></textarea>
+        <input type="hidden" name="cc" value="whereiswaldo@gmail.com"/>
+        <input type="submit" value="Send">
+    </form>
+    <footer>
+        &copy;2024 Jim and Samella's House Designed with SierraMist
+    </footer>
+</body>
