@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="styles.css"/>
 
 <header>
-    <image class="logo" src="./images/jimandsamellaslogo.jpg"></image>
+    <a href="./landingpage.html"><image class="logo" src="./images/jimandsamellaslogo.jpg"></image></a>
     <h3 class="main-title">Jim and Samella's House</h3>
     <title>Jim and Samella's House</title><br>
     <ul>
@@ -12,13 +12,14 @@
     </ul>
 </header>
 
-<form id="form" action="mailto:katerraepayne@gmail.com?cc=katerraepayne@gmail.com" method="get" enctype="multipart/form-data">
+<form id="contactform" accept-charset="utf-8" action="mailto:mariatalbert@gmail.com?cc:whereiswaldo@gmail.com" method="get" enctype="application/x-www-form-urlencoded">
     Subject:<br>
-    <input type="text" name="subject" placeholder="Your Name"><br>
+    <input type="text" acceptcharset="utf-8" name="subject" placeholder="Your Name"><br>
     Email:<br>
     <input type="email" name="email" placeholder="Email"><br>
     Message:<br>
-    <textarea name="body" rows="5" cols="30" placeholder="Message"></textarea>
+    <textarea type="text" name="body" rows="5" cols="30" placeholder="Message"></textarea>
+    <input type="hidden" name="cc" value="whereiswaldo@gmail.com"/>
     <input type="submit" value="Send">
 </form>
 
