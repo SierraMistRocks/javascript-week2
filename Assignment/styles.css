@@ -52,6 +52,7 @@ image {
     padding-bottom: 0px;
     margin-bottom: 0px;
     padding-top: 5%;
+    margin-left: 5%;
 }
 
 .tagline {
@@ -77,7 +78,7 @@ body {
 }
 
 footer{
-    background-color: brown;
+    background-color: darkgoldenrod;
     width: 100%;
     position: absolute;
     bottom: 0;

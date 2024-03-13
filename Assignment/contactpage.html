@@ -1,4 +1,4 @@
-<script src="form.js"></script>
+<script src="./form.js"></script>
 <link rel="stylesheet" href="styles.css"/>
 
 <header>
@@ -15,9 +15,9 @@
 <body id="page-container">
     <form id="form" action="mailto:mariatalbert@gmail.com?cc:whereiswaldo@gmail.com" method="get" enctype="application/x-www-form-urlencoded">
         Subject:<br>
-        <input type="text" name="subject" placeholder="Subject"><br>
+        <input type="text" id="subject" placeholder="Subject"><br>
         Email:<br>
-        <input type="email" name="email" placeholder="Email"><br>
+        <input type="email" id="email" placeholder="Email"><br>
         Message:<br>
         <textarea type="text" name="body" rows="5" cols="30" placeholder="Message"></textarea>
         <input type="hidden" name="cc" value="whereiswaldo@gmail.com"/>
